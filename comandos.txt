@@ -1,0 +1,50 @@
+  218  git init
+  219  git remote add origin https://github.com/IsaMontoya17/Checkpoint-IsabelaMontoya.git
+  220  git add .
+  221  git commit -m "commit 01 de Isabela Montoya"
+  222  git checkout main
+  223  mkdir main.js
+  224  mkdir index.html
+  225   git commit -m "commit 01 de Isabela Montoya"
+  226  git add .
+  227   git commit -m "commit 01 de Isabela Montoya"
+  228  git status
+  229  mkdir Checkpoint-IsabelaMontoya
+  230  cd Checkpoint-IsabelaMontoya
+  231  git init
+  232  git remote add origin https://github.com/IsaMontoya17/Checkpoint-IsabelaMontoya.git
+  233  git add .
+  234  git push origin main
+  235  touch main.js
+  236  touch index.html
+  237  git status
+  238  git add .
+  239  git commit -m "commit 01 de IsabelaMontoya"
+  240  git push origin main
+  241  git status
+  242  git branch feature
+  243  git checkout feature
+  244  mkdir Hardware
+  245  mkdir Software
+  246  mkdir SeguridadInformatica
+  247  cd Hardware
+  248  touch resumen.txt
+  249  cd ..
+  250  cd Software
+  251  touch resumen.txt
+  252  cd ..
+  253  cd SeguridadInformatica
+  254  touch resumen.txt
+  255  cd ..
+  256  git status
+  257  git add .
+  258  git commit -m "commit 02 de IsabelaMontoya"
+  259  git push origin feature
+  260  git checkout main
+  261  git mv main.js resumenHardware.txt
+  262  git mv index.html resumenSoftware
+  263  echo "chrome,word,photoshop" > resumenSoftware.txt
+  264  echo "chrome, word, photoshop" >> resumenSoftware.txt
+  265  tee -a resumenSoftware.txt >>> "chrome, world, photoshop"
+  266  touch comandos.txt
+  267  history 50 > comandos.txt
